@@ -1,0 +1,81 @@
+[
+  {
+    "id": "alt-mv2gpcz9-5c72",
+    "threat_id": null,
+    "source_ip": "198.51.100.99",
+    "alert_message": "Alert",
+    "severity": "High",
+    "status": "Open",
+    "created_at": "2026-10-10T14:00:51.957Z"
+  },
+  {
+    "id": "alt-mv2gnhun-o1c",
+    "threat_id": "thr-mv2gnhun-vza",
+    "source_ip": "45.33.32.156",
+    "alert_message": "DDoS (SYN / Volumetric Flood) detected: port 80 target from 45.33.32.156",
+    "severity": "Critical",
+    "status": "Resolved",
+    "recommended_action": "Immediate Null-Route & Blacklist Source IP 45.33.32.156",
+    "created_at": "2026-10-10T13:59:24.959Z",
+    "updated_at": "2026-10-10T13:59:40.481Z",
+    "updated_by": "admin",
+    "defense_action": "FIREWALL_BLOCKED: 45.33.32.156"
+  },
+  {
+    "id": "alt-mv2gmg4a-2ph",
+    "threat_id": "thr-mv2gmg4a-y3t",
+    "source_ip": "185.190.140.2",
+    "alert_message": "Live Simulation: Stealth Port Scanning / Recon Probe flagged targeting 192.168.1.20:44500",
+    "severity": "Medium",
+    "status": "Open",
+    "recommended_action": "Rate-limit subnet and flag IP 185.190.140.2 on Perimeter Firewall",
+    "created_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "alt-mv2gmg4a-9q0",
+    "threat_id": "thr-mv2gmg4a-8o7",
+    "source_ip": "91.240.118.17",
+    "alert_message": "Live Simulation: DDoS (SYN / Volumetric Flood) flagged targeting 192.168.1.50:80",
+    "severity": "Critical",
+    "status": "Open",
+    "recommended_action": "Immediate Null-Route & Blacklist Source IP 91.240.118.17",
+    "created_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "alt-mv2gmg4a-ibt",
+    "threat_id": "thr-mv2gmg4a-gv6",
+    "source_ip": "194.26.29.112",
+    "alert_message": "Live Simulation: SSH Brute Force Attack flagged targeting 192.168.1.10:22",
+    "severity": "High",
+    "status": "Open",
+    "recommended_action": "Block Port 22 Access for IP 194.26.29.112 & Apply MFA",
+    "created_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "alt-301",
+    "threat_id": "thr-201",
+    "source_ip": "185.220.101.5",
+    "alert_message": "Repeated unauthorized SSH connection bursts detected from external IP.",
+    "severity": "High",
+    "status": "Open",
+    "created_at": "2026-10-10T12:02:03.650Z"
+  },
+  {
+    "id": "alt-302",
+    "threat_id": "thr-202",
+    "source_ip": "45.33.32.156",
+    "alert_message": "High volume packet flood exceeding 64KB threshold targeting HTTP port 80.",
+    "severity": "Critical",
+    "status": "Investigating",
+    "created_at": "2026-10-10T12:17:03.650Z"
+  },
+  {
+    "id": "alt-303",
+    "threat_id": "thr-203",
+    "source_ip": "198.51.100.77",
+    "alert_message": "Systematic sequential probe attempts against port 3389 (RDP).",
+    "severity": "Medium",
+    "status": "Resolved",
+    "created_at": "2026-10-10T12:37:03.650Z"
+  }
+]

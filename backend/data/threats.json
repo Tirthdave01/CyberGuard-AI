@@ -1,0 +1,76 @@
+[
+  {
+    "id": "thr-mv2gnhun-vza",
+    "traffic_id": "trf-mv2gnhum-cnq",
+    "source_ip": "45.33.32.156",
+    "threat_type": "DDoS (SYN / Volumetric Flood)",
+    "severity": "Critical",
+    "confidence_score": 0.97,
+    "risk_score": 95,
+    "algorithm_used": "Deep Neural Network (CICIDS2017 trained)",
+    "detected_at": "2026-10-10T13:59:24.959Z"
+  },
+  {
+    "id": "thr-mv2gmg4a-y3t",
+    "traffic_id": "trf-mv2gmg4a-74b",
+    "source_ip": "185.190.140.2",
+    "threat_type": "Stealth Port Scanning / Recon Probe",
+    "severity": "Medium",
+    "confidence_score": 0.88,
+    "risk_score": 65,
+    "algorithm_used": "Support Vector Machine (UNSW-NB15 trained)",
+    "detected_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "thr-mv2gmg4a-8o7",
+    "traffic_id": "trf-mv2gmg4a-so2",
+    "source_ip": "91.240.118.17",
+    "threat_type": "DDoS (SYN / Volumetric Flood)",
+    "severity": "Critical",
+    "confidence_score": 0.97,
+    "risk_score": 95,
+    "algorithm_used": "Deep Neural Network (CICIDS2017 trained)",
+    "detected_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "thr-mv2gmg4a-gv6",
+    "traffic_id": "trf-mv2gmg4a-vx8",
+    "source_ip": "194.26.29.112",
+    "threat_type": "SSH Brute Force Attack",
+    "severity": "High",
+    "confidence_score": 0.94,
+    "risk_score": 82,
+    "algorithm_used": "Random Forest Classifier (NSL-KDD trained)",
+    "detected_at": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "thr-201",
+    "traffic_id": "trf-101",
+    "source_ip": "185.220.101.5",
+    "threat_type": "Brute Force Attack",
+    "severity": "High",
+    "confidence_score": 0.94,
+    "algorithm_used": "Random Forest (NSL-KDD)",
+    "detected_at": "2026-10-10T12:02:03.650Z"
+  },
+  {
+    "id": "thr-202",
+    "traffic_id": "trf-102",
+    "source_ip": "45.33.32.156",
+    "threat_type": "DDoS (SYN Flood)",
+    "severity": "Critical",
+    "confidence_score": 0.98,
+    "algorithm_used": "Deep Neural Network (CICIDS2017)",
+    "detected_at": "2026-10-10T12:17:03.650Z"
+  },
+  {
+    "id": "thr-203",
+    "traffic_id": "trf-104",
+    "source_ip": "198.51.100.77",
+    "threat_type": "Port Scanning Anomaly",
+    "severity": "Medium",
+    "confidence_score": 0.88,
+    "algorithm_used": "Support Vector Machine (UNSW-NB15)",
+    "detected_at": "2026-10-10T12:37:03.650Z"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "trf-mv2gnhum-cnq",
+    "source_ip": "45.33.32.156",
+    "destination_ip": "192.168.1.25",
+    "protocol": "TCP",
+    "source_port": 3073,
+    "destination_port": 80,
+    "packet_size": 65400,
+    "flags": "SYN,ACK",
+    "timestamp": "2026-10-10T13:59:24.958Z"
+  },
+  {
+    "id": "trf-mv2gmg4a-74b",
+    "source_ip": "185.190.140.2",
+    "destination_ip": "192.168.1.20",
+    "protocol": "TCP",
+    "source_port": 59000,
+    "destination_port": 44500,
+    "packet_size": 64,
+    "flags": "FIN,PSH",
+    "timestamp": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "trf-mv2gmg4a-unu",
+    "source_ip": "192.168.1.110",
+    "destination_ip": "8.8.8.8",
+    "protocol": "UDP",
+    "source_port": 53112,
+    "destination_port": 53,
+    "packet_size": 78,
+    "flags": "NONE",
+    "timestamp": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "trf-mv2gmg4a-so2",
+    "source_ip": "91.240.118.17",
+    "destination_ip": "192.168.1.50",
+    "protocol": "TCP",
+    "source_port": 48900,
+    "destination_port": 80,
+    "packet_size": 72000,
+    "flags": "SYN,ACK",
+    "timestamp": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "trf-mv2gmg4a-vx8",
+    "source_ip": "194.26.29.112",
+    "destination_ip": "192.168.1.10",
+    "protocol": "TCP",
+    "source_port": 55410,
+    "destination_port": 22,
+    "packet_size": 1500,
+    "flags": "SYN",
+    "timestamp": "2026-10-10T13:58:36.058Z"
+  },
+  {
+    "id": "trf-101",
+    "source_ip": "185.220.101.5",
+    "destination_ip": "192.168.1.10",
+    "protocol": "TCP",
+    "source_port": 54122,
+    "destination_port": 22,
+    "packet_size": 1480,
+    "flags": "SYN",
+    "timestamp": "2026-10-10T12:02:03.648Z"
+  },
+  {
+    "id": "trf-102",
+    "source_ip": "45.33.32.156",
+    "destination_ip": "192.168.1.25",
+    "protocol": "TCP",
+    "source_port": 48920,
+    "destination_port": 80,
+    "packet_size": 65400,
+    "flags": "ACK,PSH",
+    "timestamp": "2026-10-10T12:17:03.648Z"
+  },
+  {
+    "id": "trf-103",
+    "source_ip": "10.0.0.88",
+    "destination_ip": "192.168.1.1",
+    "protocol": "UDP",
+    "source_port": 5353,
+    "destination_port": 53,
+    "packet_size": 128,
+    "flags": "NONE",
+    "timestamp": "2026-10-10T12:27:03.648Z"
+  },
+  {
+    "id": "trf-104",
+    "source_ip": "198.51.100.77",
+    "destination_ip": "192.168.1.50",
+    "protocol": "TCP",
+    "source_port": 60114,
+    "destination_port": 3389,
+    "packet_size": 2048,
+    "flags": "SYN",
+    "timestamp": "2026-10-10T12:37:03.648Z"
+  },
+  {
+    "id": "trf-105",
+    "source_ip": "192.168.1.105",
+    "destination_ip": "142.250.190.46",
+    "protocol": "HTTPS",
+    "source_port": 51240,
+    "destination_port": 443,
+    "packet_size": 512,
+    "flags": "ACK",
+    "timestamp": "2026-10-10T12:47:03.648Z"
+  }
+]

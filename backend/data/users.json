@@ -1,0 +1,18 @@
+[
+  {
+    "id": "7aee8f34-6c26-44fe-a5a6-5aa64d4cff87",
+    "username": "admin",
+    "email": "admin@cyberguard.ai",
+    "password": "$2a$10$PbCMnTR7NnNmEWJz0bCQE.O7CL/YXWYkmL1M1HHsNktlk3ryN1uuO",
+    "role": "admin",
+    "created_at": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "bbcecf90-3340-4805-a56c-d826b660c5fa",
+    "username": "analyst",
+    "email": "analyst@cyberguard.ai",
+    "password": "$2a$10$PbCMnTR7NnNmEWJz0bCQE.0tt9JY7KYlzcW5JEKQqQJ.mq0Ccnf9W",
+    "role": "analyst",
+    "created_at": "2026-10-02T09:30:00.000Z"
+  }
+]

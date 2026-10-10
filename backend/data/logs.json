@@ -1,0 +1,74 @@
+[
+  {
+    "id": "log-1791640851958-9870",
+    "user": "admin",
+    "action": "MANUAL_ALERT_CREATED",
+    "description": "Security alert created manually: \"Alert\" (Severity: High)",
+    "ip_address": "198.51.100.99",
+    "created_at": "2026-10-10T14:00:51.958Z"
+  },
+  {
+    "id": "log-1791640780485-dc61",
+    "user": "admin",
+    "action": "IP_BLOCKED",
+    "description": "Firewall defense policy executed: Source IP 45.33.32.156 dropped. Associated with alert alt-mv2gnhun-o1c.",
+    "ip_address": "45.33.32.156",
+    "created_at": "2026-10-10T13:59:40.485Z"
+  },
+  {
+    "id": "log-1791640764960-2e8a",
+    "user": "admin",
+    "action": "AI_ALERT_GENERATED",
+    "description": "Alert generated for DDoS (SYN / Volumetric Flood) from 45.33.32.156 (Severity: Critical)",
+    "ip_address": "45.33.32.156",
+    "created_at": "2026-10-10T13:59:24.960Z"
+  },
+  {
+    "id": "log-1791640716060-29e1",
+    "user": "admin",
+    "action": "TRAFFIC_SIMULATION",
+    "description": "Injected burst of 4 simulated network packets with AI inspection.",
+    "ip_address": "::1",
+    "created_at": "2026-10-10T13:58:36.060Z"
+  },
+  {
+    "id": "log-1791640709229-11b5",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "description": "Successful login session initiated for role: admin",
+    "ip_address": "::1",
+    "created_at": "2026-10-10T13:58:29.230Z"
+  },
+  {
+    "id": "log-1791636475125-ac1e",
+    "user": "admin",
+    "action": "LOGIN_SUCCESS",
+    "description": "Successful login session initiated for role: admin",
+    "ip_address": "::1",
+    "created_at": "2026-10-10T12:47:55.125Z"
+  },
+  {
+    "id": "log-401",
+    "user": "system",
+    "action": "AI_MODEL_INITIALIZED",
+    "description": "Random Forest & Neural Net classifiers loaded with NSL-KDD dataset parameters.",
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-10-10T11:47:03.651Z"
+  },
+  {
+    "id": "log-402",
+    "user": "admin",
+    "action": "USER_LOGIN_SUCCESS",
+    "description": "Administrator authenticated from management console.",
+    "ip_address": "192.168.1.105",
+    "created_at": "2026-10-10T11:52:03.651Z"
+  },
+  {
+    "id": "log-403",
+    "user": "system",
+    "action": "THREAT_DETECTED",
+    "description": "Critical DDoS signature flagged on external gateway interface.",
+    "ip_address": "45.33.32.156",
+    "created_at": "2026-10-10T12:17:03.651Z"
+  }
+]
