@@ -1,6 +1,5 @@
 // API service wrapper for CyberGuard AI Backend
-
-const BASE_URL = '/api';
+const BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 const getHeaders = (includeAuth = true) => {
   const headers = { 'Content-Type': 'application/json' };

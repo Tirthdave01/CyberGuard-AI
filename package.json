@@ -1,0 +1,10 @@
+{
+  "name": "cyberguard-ai",
+  "version": "1.0.0",
+  "description": "CyberGuard AI - Full Stack Network Intrusion Detection & Threat Prevention Platform",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/server.js"
+  }
+}

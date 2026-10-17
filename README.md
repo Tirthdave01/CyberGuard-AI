@@ -100,6 +100,7 @@ npm run dev
 
 ```
 cyberguard-ai/
+├── package.json              # Root package.json for one-click cloud deployment
 ├── backend/
 │   ├── data/                 # JSON file databases (users, traffic, threats, alerts, logs)
 │   ├── middleware/           # auth.js, logger.js, validate.js, errorHandler.js
@@ -122,3 +123,23 @@ cyberguard-ai/
 │   └── package.json
 └── README.md
 ```
+
+---
+
+## 🌐 Free Cloud Deployment Guide (Render)
+
+Deploying CyberGuard AI to **Render** is 100% free and takes 2 minutes:
+
+1. Go to [render.com](https://render.com) and log in with your GitHub account.
+2. Click **New +** $\rightarrow$ **Web Service**.
+3. Select your repository: `Tirthdave01/CyberGuard-AI`.
+4. Configure the settings:
+   - **Name:** `cyberguard-ai` (or your choice)
+   - **Language:** `Node`
+   - **Branch:** `main`
+   - **Build Command:** `npm run build`
+   - **Start Command:** `npm start`
+   - **Instance Type:** `Free`
+5. Click **Create Web Service**.
+Render will build the React SPA, launch the Express backend, and provide you with a live URL (e.g. `https://cyberguard-ai.onrender.com`)!
+

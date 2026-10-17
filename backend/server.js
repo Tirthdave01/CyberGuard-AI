@@ -1,6 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 import { requestLogger } from './middleware/logger.js';
 import { notFoundHandler, globalErrorHandler } from './middleware/errorHandler.js';
 import { initSeedData } from './services/seedData.js';
@@ -12,6 +15,10 @@ import alertRoutes from './routes/alertRoutes.js';
 import logRoutes from './routes/logRoutes.js';
 
 dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const distPath = path.join(__dirname, '../frontend/dist');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -49,7 +56,16 @@ app.use('/api/threats', threatRoutes);
 app.use('/api/alerts', alertRoutes);
 app.use('/api/logs', logRoutes);
 
-// 404 Not Found Handling Middleware
+// Serve Static Frontend Assets in Production
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+}
+
+// 404 Not Found Handling Middleware for Unmatched API endpoints
 app.use(notFoundHandler);
 
 // Global Error Handling Middleware
