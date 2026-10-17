@@ -1,7 +1,11 @@
 # CyberGuard AI — Full-Stack Network Intrusion Detection & Threat Prevention System
 
-> **Personal Cybersecurity Portfolio Project**  
-> An intelligent full-stack network intrusion detection, automated threat triage, and behavioral anomaly classification platform.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-00ff88?style=for-the-badge&logo=render&logoColor=white)](https://cyberguard-ai-von0.onrender.com)
+[![API Health](https://img.shields.io/badge/API%20Status-Active-00e5ff?style=for-the-badge)](https://cyberguard-ai-von0.onrender.com/api/health)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+> 🌐 **Live Application URL:** **[https://cyberguard-ai-von0.onrender.com](https://cyberguard-ai-von0.onrender.com)**  
+> 📋 **Live Health Check API:** [https://cyberguard-ai-von0.onrender.com/api/health](https://cyberguard-ai-von0.onrender.com/api/health)
 
 ---
 
